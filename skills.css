@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: black;
+  color: white;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.hero {
+  width: 100%;
+  flex-grow: 1; /* Allows hero to grow with content */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Changed to flex-start */
+  align-items: center;
+  padding-bottom: 60px; /* Padding bottom equals footer's height */
+  overflow-y: auto; /* Makes hero scrollable */
+}
+
+#logo {
+  border-radius: 100px;
+}
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 20px 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: rgb(8, 193, 107);
+}
+
+.skills-container {
+    width: 80%; /* Adjust width as needed */
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%; /* Full width of the skills container */
+}
+
+.comp-img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.skill-content {
+    flex: 1;
+}
+
+.site-footer {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  padding: 5px 0;
+  height: 60px; /* Footer height */
+}
+
+.footer-content {
+  margin: auto;
+  font-size: 0.8em;
+}
+
+  /* Social Links */
+  .social-links {
+    margin: 20px 0;
+  }
+  
+  .social-links a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 24px; /* Adjust icon size */
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: #ddd;
+  }
+  
+  /* Additional Footer Content */
+  .footer-content p {
+    margin-bottom: 15px;
+  }
+  
+  /* Footer Links */
+  .footer-content p a {
+    color: lightblue;
+    text-decoration: none;
+  }
+  
+  .footer-content p a:hover {
+    text-decoration: underline;
+  }
+  

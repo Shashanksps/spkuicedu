@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personle Portfolio Website</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  </head>
+  <body>
+    <div class="hero">
+      <nav>
+        <a href="index.html"><img id="logo" src="Shashank.jpeg" alt="" width="300px" height="200px"/></a>
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="About.html">ABOUT</a></li>
+          <li><a href="Experience.html">EXPERIENCE</a></li>
+          <li><a href="Skills.html">SKILLS</a></li>
+        </ul>
+      </nav>
+      <div class="detel">
+        <h1 id="dynamic-text">I'm Shashank</h1>
+        <p>This is my official portfolio website to show 
+          <br> my details and work experience</p>
+          <a href="resume.pdf" download="">Download CV</a> 
+
+      </div>
+      <div class="images">
+        <img id="image" src="sh.jpeg" alt="" class="shashank">
+      </div>
+      
+      <footer class="site-footer">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/in/shashank-prasannakumar/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

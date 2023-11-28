@@ -1,0 +1,175 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+body {
+  background: black; /* Set background color for the entire page */
+  color: white; /* Set text color for the entire page */
+  margin-bottom: 60px; /* Space for the footer */
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  background-color: black;
+}
+
+#logo {
+  border: 100px;
+  border-width: 500px;
+  border-color: black;
+  border-radius: 100px;
+}
+
+nav {
+  display: flex;
+  width: 84%;
+  margin: auto;
+  padding: 20px 0;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 20px 10px;
+  padding: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: rgb(8, 193, 107);
+}
+
+.detel {
+  color: whitesmoke;
+  margin-left: 8%;
+  margin-top: 13%;
+}
+
+.detel h1 {
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+.detel span {
+  color: #effeff;
+}
+
+.detel p {
+  line-height: 15px;
+}
+
+.detel a {
+  background: #effeff;
+  margin: 25px 0px;
+  padding: 9px 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+.images {
+  width: 45%;
+  height: 80%;
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+}
+
+.images img {
+  height: 80%;
+  position: absolute;
+  border-radius: 100%;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape {
+  bottom: 40px;
+}
+
+.images:hover .shashank {
+  left: 45%;
+}
+
+.b1 {
+  width: 50%;
+  height: 50%;
+}
+
+/* Footer styling */
+.site-footer {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  padding: 5px 0;
+}
+
+.footer-content {
+  margin: auto;
+  font-size: 0.8em;
+}
+
+/* Social Links */
+.social-links {
+  margin: 20px 0;
+}
+
+.social-links a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 24px; /* Adjust icon size */
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #ddd;
+}
+
+/* Additional Footer Content */
+.footer-content p {
+  margin-bottom: 15px;
+}
+
+/* Footer Links */
+.footer-content p a {
+  color: lightblue;
+  text-decoration: none;
+}
+
+.footer-content p a:hover {
+  text-decoration: underline;
+}
+
+#dynamic-text {
+  font-family: 'Arial', sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid black; /* Cursor effect */
+  animation: typing 1s steps(30), blink 0.7s step-end infinite;
+}
+
+/* Cursor animations */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}

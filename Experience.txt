@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience Page</title>
+    <link rel="stylesheet" href="Experience.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <a href="index.html"><img id="logo" src="Shashank.jpeg" alt="" width="300px" height="200px"/></a>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="About.html">ABOUT</a></li>
+              <li><a href="Experience.html">EXPERIENCE</a></li>
+              <li><a href="skills.html">SKILLS</a></li>
+            </ul>
+          </nav>
+    <h1 id=" dynamic-text" style="text-align: center;">Professional Experience</h1>
+    <div class="detel">
+<h2>INFOSYS                                                                                                             Bangalore, INDIA</h2>
+<p>Associate Consultant	                                                                                                                                                                Nov 2021 – Dec 2022</p>
+●	Collaborated with senior consultants and developers to identify and fix performance issues, which increased the applications.<br>
+    efficiency by 25% and reduced clients’ complaints by 40%.<br>
+●	Coordinated with cross-functional teams to ensure timely resolution of critical issues; contributed to a 50% reduction in overall<br>
+    issue resolution time and enhanced customer satisfaction.<br>
+●	Facilitated and led collaborative meetings with cross-functional teams, ensuring seamless communication and coordination; instrumental <br>
+    in achieving project milestones, resulting in a 15% increase in productivity and a 25% reduction in project costs.<br>
+●	Developed functional specification documents for 5+ projects; ensured traceability and alignment with business requirements resulting in <br>
+    ninety percent reduction in project scope creep.<br>
+●	Managed the Services Now application to manage and resolve 100+ technical issues, leading to 20% reduction in average resolution time and<br>
+    improved customer experience.<br>
+
+<h2>FLIPKART                                                                                                            Bangalore, INDIA</h2>
+<p>Senior Executive	                                                                                                                                                                          Sep 2020 – Sep 2021</p>
+●	Consolidated input from stakeholders and created a comprehensive project plan that met all requirements, reducing project timeline by 30%.<br>
+●	Developed and implemented real-time MIS reports, leveraging data analytics tools, resulting in a 20% reduction in operational errors and a<br>
+    15% increase in overall efficiency.<br>
+●	Projects accomplished: Improved IPP by establishing a more effective TMS process, decreasing the time between scheduling and dispatching, <br>
+    and increasing overall efficiency.<br>
+
+<h2>RELIANCE RETAIL LIMITED                                                                         Bangalore, INDIA</h2>
+<p>Senior Executive	                                                                                                                                                                           Jul 2019 – Sep 2021</p>
+●	Streamlined inbound, outbound, and inventory operations by conducting a thorough audit of the supply chain; identified key areas of improvement<br>
+    which optimized efficiency by 25% and minimized inventory costs by 20%.<br>
+●	Identified and resolved complex operational challenges by producing inventive solutions, leading to significant improvements in operational effectiveness,<br>
+    including a 30% increase in team efficiency and higher levels of customer satisfaction.<br>
+
+<h2>Volvo CONSTRUCTION EQUIPMENT	                                                         Bangalore, INDIA</h2>
+<p>Industrial Intern	                                                                                                                                                                         Jul 2018 – Jul 2018</p>
+●	Observed the 10+ techniques used in the plant such as Poka yoke, 5S and Kaizen.<br>
+●	Analyzed data from the excavator assembly line to identify areas for improvement; designed and implemented a predictive maintenance program that enhanced<br>
+    machine operation time by 25% and decreased maintenance costs by 10%.<br>
+
+    </div>
+
+       <footer class="site-footer">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    </div>
+    <script src="Experience .js"></script>
+</body>
+</html>

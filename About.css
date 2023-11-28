@@ -1,0 +1,115 @@
+*
+{
+    background-color: black;
+    position: relative;
+}
+body {
+    background: black; /* Set background color for the entire page */
+    color: white; /* Set text color for the entire page */
+    margin-bottom: 60px; /* Space for the footer */
+  }
+
+.hero
+{
+    color: #effeef;
+}
+
+#logo {
+    border: 100px;
+    border-width: 500px;
+    border-color: black;
+    border-radius: 100px;
+  }
+  
+  nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 20px 10px;
+    padding: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: rgb(8, 193, 107);
+  }
+
+  .detel-container {
+    background-color: #333; /* Dark grey background */
+    padding: 20px; /* Padding around the content */
+    border: 2px solid #fff; /* White border, adjust as needed */
+    margin: 20px auto; /* Top and bottom margins, auto horizontal margins to center */
+    width: 60%; /* Adjust the width as needed */
+    text-align: justify; /* Justifies the text for even distribution */
+}
+
+.detel {
+    color: #fff; /* White text color for better contrast */
+    font-size: 1em; /* Adjust font size as needed */
+    margin: 0; /* Remove default margins of <p> */
+}
+
+
+
+  /* Footer styling */
+.site-footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    padding: 5px 0;
+  }
+  
+  .footer-content {
+    margin: auto;
+    font-size: 0.8em;
+  }
+  
+  /* Social Links */
+  .social-links {
+    margin: 20px 0;
+  }
+  
+  .social-links a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 24px; /* Adjust icon size */
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: #ddd;
+  }
+  
+  /* Additional Footer Content */
+  .footer-content p {
+    margin-bottom: 15px;
+  }
+  
+  /* Footer Links */
+  .footer-content p a {
+    color: lightblue;
+    text-decoration: none;
+  }
+  
+  .footer-content p a:hover {
+    text-decoration: underline;
+  }
+  
+
+  

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <link rel="stylesheet" href="About.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <a href="index.html"><img id="logo" src="Shashank.jpeg" alt="" width="300px" height="200px"/></a>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="Experience.html">EXPERIENCE</a></li>
+              <li><a href="skills.html">SKILLS</a></li>
+            </ul>
+          </nav>
+    <h1 style="text-align: center;">Professional Summary</h1>
+    <div class="detel-container">
+    <p class="detel">
+        I am a seasoned professional in management and consulting with a Master’s in Management and Information Systems from the University of Illinois at Chicago. 
+        With a rich background in operational optimization and project management, gained through roles at Infosys, Flipkart, and Reliance Retail Limited, I excel in leveraging 
+        my technical expertise in programming and data analytics to drive innovation and efficiency. My commitment extends beyond professional achievements, as demonstrated 
+        through contributions to academic research and active community engagement.
+    </p>
+    </div>
+
+    <h1 style="text-align: center;">About</h1>
+    <div class="detel-container">
+    <p class="detel">
+        
+ My name is Shashank Prasanna and Currently pursuing a Master of Science in Management and Information Systems at the University of Illinois at Chicago My coursework 
+has provided me with a robust foundation in areas crucial to modern business, including Advanced Database Management, Enterprise 
+Application Development, supply chain management and Operation Management.I am a professional with over three years of experience in the management and consulting fields.<br>
+<br>
+<br>
+My educational journey began at M S Ramaiah Institute of Technology in Bangalore, India, where I earned a bachelor’s degree in mechanical engineering, completing the program from July 2015 
+to July 2019.My career path has included positions at prestigious companies, all of which have greatly enhanced my diverse skill set.
+At Infosys, as an Associate Consultant, I collaborated closely with senior consultants and developers to enhance application efficiency
+and successfully minimized client complaints. My adeptness at resolving tech issues contributed to a 50% reduction in overall issue 
+resolution time, significantly enhancing customer satisfaction. Subsequently, as a Senior Executive at Flipkart, I spearheaded projects 
+aimed at streamlining operations and implementing real-time MIS reports. Notably, my initiative led to a 30% reduction in project timelines 
+and a substantial increase in operational efficiency. I also undertook projects for productivity improvement. <br>
+<br>
+<br>
+
+My tenure at Reliance Retail Limited further honed my skills in operational optimization. Conducting a comprehensive audit of the supply chain, I identified key areas 
+for improvement that culminated in an increase in efficiency and a 20% reduction in inventory costs. Noteworthy publications and presentations,
+such as my research on "Effect of Drilling Parameters on Kevlar Delamination," have significantly contributed to the academic discourse, resulting 
+in tangible enhancements in drilling efficiency and reduced delamination risks. Outside of academics and professional engagements, I have taken on 
+leadership roles in organizing cultural fests and actively participated in volunteer activities, demonstrating a commitment to community engagement
+and leadership development. Moreover, my technical acumen spans various programming languages, data analytics tools, and business/software applications, 
+including C++, SQL, R-programming, Tableau, Python, and an array of enterprise systems such as Ansys, AutoCAD, SAP, Oracle EBS suite, and JavaScript.<br>
+<br>
+<br>
+In summary, my comprehensive academic background, coupled with extensive hands-on experience across diverse domains, positions me as a dynamic and 
+resourceful professional capable of driving innovation, operational excellence, and transformative change in any organizational setting.
+</p>
+    </div>
+
+       <footer class="site-footer">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    </div>
+</body>
+</html>
